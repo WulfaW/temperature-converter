@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/dark.css"></link>
+    <link rel="stylesheet" href="css/style.css"></link>
+    <script defer src="js/main.js"></script>
+    
+</head>
+
+<body>
+
+    <form>
+        <h1>🌡️ Temperature Converter</h1>
+        <input type="number" id="tempInput" value="0" placeholder="Enter temperature"><br>
+
+        <div style="display: flex; justify-content: space-between; gap: 1rem;">
+            <select id="fromUnit">
+                <option value="C">Celsius (°C)</option>
+                <option value="F">Fahrenheit (°F)</option>
+                <option value="K">Kelvin (°K)</option>
+                <option value="R">Rankine (°R)</option>
+            </select>
+
+            <button type="button" id="swapBtn">⇄</button>
+
+            <select id="toUnit">
+                <option value="F">Fahrenheit (°F)</option>
+                <option value="C">Celsius (°C)</option>
+                <option value="K">Kelvin (°K)</option>
+                <option value="R">Rankine (°R)</option>
+            </select>
+        </div>
+
+        <button type="button" onclick="convert()">Convert</button>
+        <p id="result">Select units and enter a value</p>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+
+    </form>
+</body>
+</html>
+
+<div class="corner-icon top-left">🌸</div>
+<div class="corner-icon top-right">☀️</div>
+<div class="corner-icon bottom-left">🍂</div>
+<div class="corner-icon bottom-right">❄️</div>
+
+
+</form>
+
+</body>
+
+
+</html>
